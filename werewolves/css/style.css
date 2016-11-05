@@ -40,6 +40,8 @@ h1 {
 
 h2 {
   /* Set font color to be purple (BONUS: try using a hex or rgb code!) */
+  font-size: 14px;
+  color: grey;
 }
 
 input[type="number"] {
