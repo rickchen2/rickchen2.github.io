@@ -44,7 +44,7 @@ h2 {
   color: grey;
 }
 
-input[type="number"] {
+input{
     width: 30px;
 }
 
@@ -56,6 +56,31 @@ footer {
   text-align: center;
   /* Set margin on top to be 60 pixels */
   margin-top: 60px;
+
+}
+
+@media (max-width: 767px) {
+
+  main {
+    border: 1px solid #bbbdc0;
+    border-top: 5px solid #bbbdc0;
+    padding: 10px 15px 20px;
+    color: #26292d;
+
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  input{
+    border: 2px solid #1a5fce;
+    height: 16px;
+    font-size: 13px;
+
+  }
+
+
 
 }
 
