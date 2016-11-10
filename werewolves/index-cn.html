@@ -17,76 +17,125 @@
 			<h1>狼人</h1>
 			<div>
 				<input id="werewolve1" type="number" name="werewolve1"> 
-				<button onclick="kill('werewolve1')">杀</button>
-				<button onclick="guard('werewolve1')">守</button>
-				<button onclick="magic('werewolve1')">救</button>
+				<select id="selectwerewolve1" onChange="OnSelectedIndexChange('werewolve1', 'selectwerewolve1')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 
 				<input id="werewolve2" type="number" name="werewolve2"> 
-				<button onclick="kill('werewolve2')">杀</button>
-				<button onclick="guard('werewolve2')">守</button>
-				<button onclick="magic('werewolve2')">救</button>
+				<select id="selectwerewolve2" onChange="OnSelectedIndexChange('werewolve2', 'selectwerewolve2')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
+				
 			</div>
 			
 			<div>
 				<input id="werewolve3" type="number" name="werewolve3">
-				<button onclick="kill('werewolve3')">杀</button>
-				<button onclick="guard('werewolve3')">守</button>
-				<button onclick="magic('werewolve3')">救</button>
+				<select id="selectwerewolve3" onChange="OnSelectedIndexChange('werewolve3', 'selectwerewolve3')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 
-				<input id="werewolve4" type="number" name="werewolve3">
-				<button onclick="kill('werewolve4')">杀</button>
-				<button onclick="guard('werewolve4')">守</button>
-				<button onclick="magic('werewolve4')">救</button>
+				<input id="werewolve4" type="number" name="werewolve4">
+				<select id="selectwerewolve4" onChange="OnSelectedIndexChange('werewolve4', 'selectwerewolve4')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 			</div>
 
 			<h1>守护</h1>
 			<input id="guard" type="number" name="guard"> 
-			<button onclick="kill('guard')">杀</button>
-			<button onclick="guard('guard')">守</button>
-			<button onclick="magic('guard')">救</button>
+			<select id="selectguard" onChange="OnSelectedIndexChange('guard', 'selectguard')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+			</select>
 
 
 			<h1>预言家</h1>
 			<input id="seer" type="number" name="seer"> 
-			<button onclick="kill('seer')">杀</button>
-			<button onclick="guard('seer')">守</button>
-			<button onclick="magic('seer')">救</button>
+			<select id="selectseer" onChange="OnSelectedIndexChange('seer', 'selectseer')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+			</select>
 
 			<h1>女巫</h1>
 			<input id="witch" type="number" name="witch">
-			<button onclick="kill('witch')">杀</button>
-			<button onclick="guard('witch')">守</button>
-			<button onclick="magic('witch')">救</button>
+			<select id="selectwitch" onChange="OnSelectedIndexChange('witch', 'selectwitch')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+			</select>
 
 			<h1>猎人</h1>
 			<input id="hunter" type="number" name="hunter">
-			<button onclick="kill('hunter')">杀</button>
-			<button onclick="guard('hunter')">守</button>
-			<button onclick="magic('hunter')">救</button>
+			<select id="selecthunter" onChange="OnSelectedIndexChange('hunter', 'selecthunter')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+			</select>
 
 			<h1>村民</h1>
 			<div>
 				<input id="villager1" type="number" name="villager1"> 
-				<button onclick="kill('villager1')">杀</button>
-				<button onclick="guard('villager1')">守</button>
-				<button onclick="magic('villager1')">救</button>
+				<select id="selectvillager1" onChange="OnSelectedIndexChange('villager1', 'selectvillager1')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 
 				<input id="villager2" type="number" name="villager2"> 
-				<button onclick="kill('villager2')">杀</button>
-				<button onclick="guard('villager2')">守</button>
-				<button onclick="magic('villager2')">救</button>
+				<select id="selectvillager2" onChange="OnSelectedIndexChange('villager2', 'selectvillager2')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 			</div>
 			
 			<div>
 				<input id="villager3" type="number" name="villager3">
-				<button onclick="kill('villager3')">杀</button>
-				<button onclick="guard('villager3')">守</button>
-				<button onclick="magic('villager3')">救</button>
+				<select id="selectvillager3" onChange="OnSelectedIndexChange('villager3', 'selectvillager3')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 
 				<input id="villager4" type="number" name="villager4">
-				<button onclick="kill('villager4')">杀</button>
-				<button onclick="guard('villager4')">守</button>
-				<button onclick="magic('villager4')">救</button>
+				<select id="selectvillager4" onChange="OnSelectedIndexChange('villager4', 'selectvillager4')">
+					<option value="0">请选择</option>
+					<option value="1">杀 </option>
+					<option value="2">守</option>
+					<option value="3">救</option>
+					<option value="4">同守同救</option>
+				</select>
 			</div>
 
 		</main>
