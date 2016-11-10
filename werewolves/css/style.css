@@ -34,7 +34,12 @@ img {
 
 h1 {
   /* Set border along bottom to be a black solid line 5 pixels thick */
-  font-size: 18px;
+  color: #38424b;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 0.4;
+
   
 }
 
@@ -45,7 +50,7 @@ h2 {
 }
 
 input{
-    width: 30px;
+    width: 50px;
 }
 
 .resetButton{
@@ -53,6 +58,9 @@ input{
     height: auto;
     font-size: 16px;
     background-color: #e554e5;
+}
+.confirmc{
+  background-color: #e88686;
 }
 
 footer {
@@ -78,14 +86,24 @@ footer {
 
   }
 
-  button {
+  select{
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px;
     font-size: 14px;
+    border: none;
   }
 
   input{
-    border: 2px solid #1a5fce;
-    height: 16px;
-    font-size: 13px;
+    height: 25px;
+    font-size: 15px;
+    padding: 2px 2px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 3px 3px;
 
   }
 
